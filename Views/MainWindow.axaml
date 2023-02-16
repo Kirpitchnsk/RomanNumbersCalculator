@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:RomanNumberCalculator.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="500"
+		MinHeight="500"
+        MinWidth="400"
+        Height="500"
+        Width="400"
+        x:Class="RomanNumberCalculator.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="RomanNumberCalculator">
+	<Grid Margin="0,0,0,0">
+        <TextBox Name="Screen" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="100" FontFamily="Times New Roman" FontSize="30"/>
+        <Button Content="I" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="equals" Content="=" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Height="400" RenderTransformOrigin="1.96,0.021" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Content="V" HorizontalAlignment="Left" Margin="0,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Content="D" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Content="M" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="200,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Content="L" HorizontalAlignment="Left" Margin="0,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="CE" Content="CE" HorizontalAlignment="Left" Margin="100,400,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="clear"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="200,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+    </Grid>
+
+</Window>
