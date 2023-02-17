@@ -8,7 +8,7 @@ namespace RomanNumberCalculator.Models
 {
     public class RomanNumberException : Exception
     {
-        private string Message = string.Empty;
+        private string Message = String.Empty;
         public RomanNumberException(string message = "")
         {
             Message = message;

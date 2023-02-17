@@ -17,9 +17,9 @@ namespace RomanNumberCalculator.Views
         public void ButtonClick(object sender, RoutedEventArgs eventArgs)
         {
             Button? button = sender as Button;
-            if (button?.Tag?.ToString() == "operator" && button.Name != "equals" && Screen.Text != "ERROR"
+            if (button?.Tag?.ToString() == "operator" && button.Name != "equal" && Screen.Text != "ERROR"
                 && RomanNumber.Current != null) { Screen.Text = RomanNumber.Current.ToString(); RomanNumber.Current = null; }
-            if (button?.Tag?.ToString() == "number" && button.Name != "equals" && Screen.Text != "ERROR"
+            if (button?.Tag?.ToString() == "number" && button.Name != "equal" && Screen.Text != "ERROR"
                 && RomanNumber.Current != null) { Screen.Text = String.Empty; RomanNumber.Current = null; }
             if (button != null && Screen.Text != "ERROR")
             {
@@ -27,7 +27,7 @@ namespace RomanNumberCalculator.Views
                 oper = (button.Tag?.ToString() == "operator" ? " " : "") + button.Content.ToString() + (button.Tag?.ToString() == "operator" ? " " : "");
                 Screen.Text += oper;
             }
-            if (button?.Name == "equals" && Screen.Text != "ERROR")
+            if (button?.Name == "equal" && Screen.Text != "ERROR")
             {
                 string[] parts = Screen.Text.Trim().Split(" ");
                 List<RomanNumber> numbers = new List<RomanNumber>();

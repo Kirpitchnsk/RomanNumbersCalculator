@@ -13,19 +13,19 @@
         Title="RomanNumberCalculator">
 	<Grid Margin="0,0,0,0">
         <TextBox Name="Screen" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="100" FontFamily="Times New Roman" FontSize="30"/>
-        <Button Content="I" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Content="C" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Name="equals" Content="=" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Height="400" RenderTransformOrigin="1.96,0.021" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
-        <Button Content="+" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
-        <Button Content="V" HorizontalAlignment="Left" Margin="0,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Content="D" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Content="-" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
-        <Button Content="X" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Content="M" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
-        <Button Content="*" HorizontalAlignment="Left" Margin="200,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
-        <Button Content="L" HorizontalAlignment="Left" Margin="0,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="I" Content="I" HorizontalAlignment="Left" Margin="0,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="C" Content="C" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="equal" Content="=" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Height="400" RenderTransformOrigin="1.96,0.021" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Name="plus" Content="+" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Name="V" Content="V" HorizontalAlignment="Left" Margin="0,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="D" Content="D" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="minus" Content="-" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Name="X" Content="X" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="M" Content="M" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
+        <Button Name="multiply" Content="*" HorizontalAlignment="Left" Margin="200,300,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Name="L" Content="L" HorizontalAlignment="Left" Margin="0,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="number"/>
         <Button Name="CE" Content="CE" HorizontalAlignment="Left" Margin="100,400,0,0" VerticalAlignment="Top" Height="100" Width="100" RenderTransformOrigin="0.514,0.529" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="clear"/>
-        <Button Content="/" HorizontalAlignment="Left" Margin="200,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
+        <Button Name="dividion" Content="/" HorizontalAlignment="Left" Margin="200,400,0,0" VerticalAlignment="Top" Height="100" Width="100" FontFamily="Times New Roman" FontSize="30" Click="ButtonClick" Tag="operator"/>
     </Grid>
 
 </Window>
